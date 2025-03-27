@@ -1,0 +1,17 @@
+; Test Program for testing and understanding the changes the language made
+
+segment .text
+    global _start
+
+_start:
+    ax = 255
+    ax = bx
+
+    if ax == bx: test
+    if ax u> cx: test2
+
+test:
+    cx = 255
+
+test2:
+    ret
