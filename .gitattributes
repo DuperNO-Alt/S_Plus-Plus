@@ -7,4 +7,4 @@
 *.cls linguist-vendored
 *.toc linguist-vendored
 *.spec linguist-vendored
-*.spp linguist-language=S++
+*.spp linguist-language=Assembly
