@@ -5,4 +5,5 @@
 *.tex linguist-vendored
 *.sty linguist-vendored
 *.cls linguist-vendored
+*.toc linguist-vendored
 *.spp linguist-language=S++
