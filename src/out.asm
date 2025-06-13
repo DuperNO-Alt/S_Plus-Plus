@@ -4,14 +4,17 @@ segment .text
     global _start
 
 _start:
-    ax = 255
-    ax = bx
+    mov ax, 255
+    mov ax, bx
 
-    if ax == bx: test
-    if ax u> cx: test2,test
+    cmp ax, bx
+    je test
+    cmp ax, cx
+    ja test2
+    jmp test
 
 test:
-    cx = 255
+    mov cx, 255
 
 test2:
     ret

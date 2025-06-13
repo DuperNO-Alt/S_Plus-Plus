@@ -1,7 +1,9 @@
 # S++
 
 **S++** is an Open-Source PL that is like Assembly, but has additional instructions  
-**S++** is currently x86_16 NASM-only
+**S++** is currently *officially* x86_16 NASM-only
+
+**We're not sure if S++ Transpilers support ONLY x86_16** (*NASM Assembly Required*)
 
 **S++** Follows a compiling step of: **Transpiler (PASM)** then **Compiling (NASM)**  
 **PASM** is an Official Transpiler that transpiles from **S++** to NASM Assembly Code
